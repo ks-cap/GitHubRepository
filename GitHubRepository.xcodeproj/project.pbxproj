@@ -17,6 +17,7 @@
 		B2D44ADA2300046B006571A2 /* GitHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D44AD92300046B006571A2 /* GitHubRepository.swift */; };
 		B2D44ADC2300061F006571A2 /* GitHubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D44ADB2300061F006571A2 /* GitHubAPIClient.swift */; };
 		B2D44ADE23000A14006571A2 /* GitHubRepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D44ADD23000A14006571A2 /* GitHubRepositoryManager.swift */; };
+		B2D44AE023002963006571A2 /* GitHubRepositoryManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D44ADF23002963006571A2 /* GitHubRepositoryManagerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B2D44AD92300046B006571A2 /* GitHubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepository.swift; sourceTree = "<group>"; };
 		B2D44ADB2300061F006571A2 /* GitHubAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIClient.swift; sourceTree = "<group>"; };
 		B2D44ADD23000A14006571A2 /* GitHubRepositoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepositoryManager.swift; sourceTree = "<group>"; };
+		B2D44ADF23002963006571A2 /* GitHubRepositoryManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepositoryManagerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				B211905122FFF5D000B3BA97 /* GitHubRepositoryTests.swift */,
+				B2D44ADF23002963006571A2 /* GitHubRepositoryManagerTests.swift */,
 				B211905322FFF5D000B3BA97 /* Info.plist */,
 			);
 			path = GitHubRepositoryTests;
@@ -299,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D44AE023002963006571A2 /* GitHubRepositoryManagerTests.swift in Sources */,
 				B211905222FFF5D000B3BA97 /* GitHubRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 //
 
 class GitHubRepositoryManager {
-    private let client: GitHubAPIClient
+    private let client: GitHubAPIClientProtocol
     private var repos: [GitHubRepository]?
 
     var majorRepositories: [GitHubRepository] {
@@ -15,8 +15,8 @@ class GitHubRepositoryManager {
         return repositories.filter { $0.star >= 10 }
     }
 
-    init() {
-        self.client = GitHubAPIClient()
+    init(client: GitHubAPIClientProtocol = GitHubAPIClient()) {
+        self.client = client
     }
 
     func load(user: String, completion: @escaping () -> Void) {

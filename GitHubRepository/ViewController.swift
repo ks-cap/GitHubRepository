@@ -9,7 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     var manager: GitHubRepositoryManager!
 
     @IBOutlet private var tableView: UITableView!

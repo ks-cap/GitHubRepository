@@ -8,7 +8,11 @@
 
 import Foundation
 
-class GitHubAPIClient {
+protocol GitHubAPIClientProtocol {
+    func fetchRepositories(user: String, handler: @escaping ([GitHubRepository]?) -> Void)
+}
+
+class GitHubAPIClient: GitHubAPIClientProtocol {
     func fetchRepositories(user: String, handler: @escaping ([GitHubRepository]?) -> Void) {
         let url = URL(string: "https://api.github.com/users/\(user)/repos")!
         let request = URLRequest(url: url)
