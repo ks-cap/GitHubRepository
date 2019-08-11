@@ -15,6 +15,7 @@
 		B211905222FFF5D000B3BA97 /* GitHubRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B211905122FFF5D000B3BA97 /* GitHubRepositoryTests.swift */; };
 		B211905D22FFF5D000B3BA97 /* GitHubRepositoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B211905C22FFF5D000B3BA97 /* GitHubRepositoryUITests.swift */; };
 		B2D44ADA2300046B006571A2 /* GitHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D44AD92300046B006571A2 /* GitHubRepository.swift */; };
+		B2D44ADC2300061F006571A2 /* GitHubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D44ADB2300061F006571A2 /* GitHubAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B211905C22FFF5D000B3BA97 /* GitHubRepositoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepositoryUITests.swift; sourceTree = "<group>"; };
 		B211905E22FFF5D000B3BA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2D44AD92300046B006571A2 /* GitHubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepository.swift; sourceTree = "<group>"; };
+		B2D44ADB2300061F006571A2 /* GitHubAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B211904522FFF5D000B3BA97 /* LaunchScreen.storyboard */,
 				B211904822FFF5D000B3BA97 /* Info.plist */,
 				B2D44AD92300046B006571A2 /* GitHubRepository.swift */,
+				B2D44ADB2300061F006571A2 /* GitHubAPIClient.swift */,
 			);
 			path = GitHubRepository;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D44ADC2300061F006571A2 /* GitHubAPIClient.swift in Sources */,
 				B2D44ADA2300046B006571A2 /* GitHubRepository.swift in Sources */,
 				B211903F22FFF5CE00B3BA97 /* ViewController.swift in Sources */,
 				B211903D22FFF5CE00B3BA97 /* AppDelegate.swift in Sources */,

@@ -20,6 +20,8 @@ disabled_rules:
 - trailing_closure # RxSwiftのOnNextでwarningが出るため
 - explicit_acl # internalを省略したいため
 - explicit_top_level_acl # internalを省略したいため
+- force_try # try!を利用したいため
+- force_unwrapping # 強制アンラップを利用したいため
 
 # defaultルール以外にopt-inから採用するルール
 opt_in_rules:
