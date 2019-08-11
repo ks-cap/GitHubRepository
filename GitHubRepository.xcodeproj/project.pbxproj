@@ -107,13 +107,13 @@
 			children = (
 				B211903C22FFF5CE00B3BA97 /* AppDelegate.swift */,
 				B211903E22FFF5CE00B3BA97 /* ViewController.swift */,
+				B2D44AD92300046B006571A2 /* GitHubRepository.swift */,
+				B2D44ADB2300061F006571A2 /* GitHubAPIClient.swift */,
+				B2D44ADD23000A14006571A2 /* GitHubRepositoryManager.swift */,
 				B211904022FFF5CE00B3BA97 /* Main.storyboard */,
 				B211904322FFF5D000B3BA97 /* Assets.xcassets */,
 				B211904522FFF5D000B3BA97 /* LaunchScreen.storyboard */,
 				B211904822FFF5D000B3BA97 /* Info.plist */,
-				B2D44AD92300046B006571A2 /* GitHubRepository.swift */,
-				B2D44ADB2300061F006571A2 /* GitHubAPIClient.swift */,
-				B2D44ADD23000A14006571A2 /* GitHubRepositoryManager.swift */,
 			);
 			path = GitHubRepository;
 			sourceTree = "<group>";
