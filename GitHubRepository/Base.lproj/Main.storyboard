@@ -31,6 +31,9 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="kJc-Cf-EWq" id="rUz-vn-caD"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -42,9 +45,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Nhe-Pm-7UK"/>
                     </view>
-                    <connections>
-                        <outlet property="tableView" destination="aTB-XX-zqW" id="YRU-Sz-TcX"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8L7-3Z-Jrf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
