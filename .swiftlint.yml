@@ -8,20 +8,22 @@ disabled_rules:
 # opt-inルールの中で無効にするルール
 - conditional_returns_on_newline # ガード文などは簡潔に一行で記述したいため
 - discouraged_optional_collection # PHImageManagerの既存仕様のため
+- explicit_acl # internalを省略したいため
 - explicit_enum_raw_value # 暗黙的なraw値で問題ないため
+- explicit_top_level_acl # internalを省略したいため
 - explicit_type_interface # 型推論を利用したいため
 - fatal_error_message # メッセージは不要なため
 - file_header # ヘッダには特に決まりがないため
+- force_try # try!を利用したいため
+- force_unwrapping # 強制アンラップを利用したいため
+- implicitly_unwrapped_optional # 暗黙的アンラップを許可する
 - lower_acl_than_parent # 対応不可のため
 - no_extension_access_modifier # extension_access_modifierを優先するため
 - no_grouping_extension # グルーピングにextensionを利用したいため
+- prohibited_interface_builder
 - strict_fileprivate # fileprivateを利用したいため
 - switch_case_on_newline # caseと同じ行に記述したいため
 - trailing_closure # RxSwiftのOnNextでwarningが出るため
-- explicit_acl # internalを省略したいため
-- explicit_top_level_acl # internalを省略したいため
-- force_try # try!を利用したいため
-- force_unwrapping # 強制アンラップを利用したいため
 
 # defaultルール以外にopt-inから採用するルール
 opt_in_rules:

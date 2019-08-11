@@ -9,7 +9,7 @@
 class GitHubRepositoryManager {
     private let client: GitHubAPIClient
     private var repos: [GitHubRepository]?
-    
+
     var majorRepositories: [GitHubRepository] {
         guard let repositories = self.repos else { return [] }
         return repositories.filter { $0.star >= 10 }
