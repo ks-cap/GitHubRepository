@@ -24,6 +24,7 @@ disabled_rules:
 - strict_fileprivate # fileprivateを利用したいため
 - switch_case_on_newline # caseと同じ行に記述したいため
 - trailing_closure # RxSwiftのOnNextでwarningが出るため
+- trailing_whitespace # １行の空行を許可する
 
 # defaultルール以外にopt-inから採用するルール
 opt_in_rules:
