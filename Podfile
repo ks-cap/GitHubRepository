@@ -6,6 +6,8 @@ target 'GitHubRepository' do
   use_frameworks!
 
   # Pods for GitHubRepository
+  pod 'SwiftLint'
+  pod 'SwiftFormat/CLI'
 
   target 'GitHubRepositoryTests' do
     inherit! :search_paths
